@@ -13,40 +13,35 @@ const Menu = [
   },
   {
     id: 2,
-    name: "Top Rated",
+    name: "Past events",
     link: "/#services",
   },
   {
     id: 3,
-    name: "Kids Wear",
+    name: "members",
     link: "/#",
   },
   {
     id: 3,
-    name: "Mens Wear",
+    name: "about us",
     link: "/#",
-  },
-  {
-    id: 3,
-    name: "Electronics",
-    link: "/#",
-  },
+  }
 ];
 
 const DropdownLinks = [
   {
     id: 1,
-    name: "Trending Products",
+    name: "GDSC",
     link: "/#",
   },
   {
     id: 2,
-    name: "Best Selling",
+    name: "lexican",
     link: "/#",
   },
   {
     id: 3,
-    name: "Top Rated",
+    name: "aeromodeling",
     link: "/#",
   },
 ];
@@ -109,7 +104,7 @@ const Navbar = ({ handleOrderPopup }) => {
           {/* Simple Dropdown and Links */}
           <li className="group relative cursor-pointer">
             <a href="#" className="flex items-center gap-[2px] py-2">
-              Trending Products
+              Clubs
               <span>
                 <FaCaretDown className="transition-all duration-200 group-hover:rotate-180" />
               </span>
