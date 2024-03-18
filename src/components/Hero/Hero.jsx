@@ -1,30 +1,30 @@
 import React from "react";
-import Image1 from "../../assets/hero/women.png";
-import Image2 from "../../assets/hero/shopping.png";
-import Image3 from "../../assets/hero/sale.png";
+import Image1 from "../../assets/hero/iist 3.png";
+import Image2 from "../../assets/hero/iist 2.png";
+import Image3 from "../../assets/hero/iist.png";
 import Slider from "react-slick";
 
 const ImageList = [
   {
     id: 1,
     img: Image1,
-    title: "Upto 50% off on all Men's Wear",
+    title: "One platform to access all the Club",
     description:
-      "lorem His Life will forever be Changed dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "My university my university Moto if tomorrow isn't a due date today is not the due date.",
   },
   {
     id: 2,
     img: Image2,
-    title: "30% off on all Women's Wear",
+    title: "One platform to access all the Club",
     description:
-      "Who's there lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "They say college is where you find yourself but I kept getting lost on the way to class so I have to find that first.",
   },
   {
     id: 3,
     img: Image3,
-    title: "70% off on all Products Sale",
+    title: "One platform to access all the Club",
     description:
-      "consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      " Every college student know the importance of the Club ",
   },
 ];
 
@@ -79,7 +79,7 @@ const Hero = ({ handleOrderPopup }) => {
                       onClick={handleOrderPopup}
                       className="bg-gradient-to-r from-primary to-secondary hover:scale-105 duration-200 text-white py-2 px-4 rounded-full"
                     >
-                      Order Now
+                     Explore now 
                     </button>
                   </div>
                 </div>

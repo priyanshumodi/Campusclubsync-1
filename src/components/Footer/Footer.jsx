@@ -1,5 +1,5 @@
 import React from "react";
-import footerLogo from "../../assets/logo.png";
+import footerLogo from "../../assets/PrabalLogo.png";
 import Banner from "../../assets/website/footer-pattern.jpg";
 import {
   FaFacebook,
@@ -10,7 +10,7 @@ import {
 } from "react-icons/fa";
 
 const BannerImg = {
-  backgroundImage: `url(${Banner})`,
+  backgroundImage: `url(data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxANEA8NDQ8SDQ0NEBANDQ0NEBANDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSk3Li4uFx8/ODMtNyg5LjcBCgoKDQ0NDg0NDysZFRkrKzctLS0rKy03LSstKys3LSstNysrKys3KzctLS0rLSsrLSsrKys3LS0tLSstKysrK//AABEIAKgBLAMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQIH/8QAIRABAAICAgMBAAMAAAAAAAAAAOHwMUEB0VFhoREhkcH/xAAVAQEBAAAAAAAAAAAAAAAAAAAAAf/EABQRAQAAAAAAAAAAAAAAAAAAAAD/2gAMAwEAAhEDEQA/AOIgCLACi8CFyCgCrxf6C/AReyE7IBSNFykbBZ0RonZGwJ0twk7LkDnvS9+EnZ35AuFuPSXJc+gLguEuVuQSAjZcgQEIBBz2QSByioKACCKiAnPKoKoXJciEKkbW5UCS5LkFC5S5Bq/BLn0XIL34I0d+SNgpCXJGwWSNJO1jYE6Ob/BOzm/yBOl78M897XvyBcFx6S5W59ACXJ35AgI2XIEaEjZcgQSRtOe9gvKFyXIoi3KXIioXJcoCFyAvAAKIqqACKABfipfgC9gXIKkFyRsFkhJ2RsFkSdlyCydpOzvyCl+Jcrc+gRf1LkuQICNgECAEHPZCSC8ovKCgIIqAggJyK1wIogqFyCiFyqtCft/S5Bb8C59JciNCXJGwUhLkjYLITsjYEnKTtbkCV7Zna9+QFvxm5W59ACXJ+39BYEjZcgBG0uQWEkjZOwVC5QVUBEVBAVBORVVFEAAUQUUAFEvwBSAAICAUhAFkSQFk7SQFL8QvwAACAgQBBQJISQVAFAOUQRUATlU5FUAFEBFABRBRb8C/AFEAUhCAURbkCVZVAkSdrcqBfiXKgCALAkAAABKCCoACKgAACKgoqAKAIp+oCqAIogCiCin7/gQKSqAAAhKpIAqF+AAAQJACiAACAIAAAIAoCAoAKIAoAKICKIAqoAqAooggKgCyJIqqIIgqAAAAICiAoAACAAAIqAoAAAKIAoAKICKIAogCiKAABIAAAHAgCiAoAIAgqoAAAAIAAAqAKAAAAACiAKAIqAKKgIogCiACoAAAACggCoAAAAACAAAAAAACgAAAAAAAoAAAAAgAKAAAAgoCAAAAAAgAAAAAP//Z)`,
   backgroundPosition: "bottom",
   backgroundRepeat: "no-repeat",
   backgroundSize: "cover",
@@ -46,7 +46,7 @@ const Footer = () => {
           <div className="py-8 px-4">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3">
               <img src={footerLogo} alt="" className="max-w-[50px]" />
-              Shopsy
+              Campus Club
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum in
@@ -123,4 +123,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Footer;//
