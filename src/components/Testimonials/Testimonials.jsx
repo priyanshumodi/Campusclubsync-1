@@ -1,5 +1,6 @@
 import React from "react";
-import Slider from "react-slick" ; // jai 
+import Slider from "react-slick" ; 
+import Himanshi from "../../assets/Himanshi.jpg";// jai 
 
 const TestimonialData = [
   {
@@ -36,6 +37,7 @@ const TestimonialData = [
     id: 7,
     name: "Himanshi dubey(Data Scientist)",
     text: "A role similar to a GDSC, GFG, or AlgoZenith lead in the field of data science would involve organizing events, workshops, and seminars focused on data science topics such as machine learning, data analysis, data visualization, and big data technologies. The responsibilities would include promoting a data-driven culture, facilitating learning opportunities in data science, building a community of data enthusiasts, collaborating with industry partners for data science projects and internships, managing resources for data science education and training, providing support and guidance to students in developing their data science skills, and preparing them for careers in data science and related fields.",
+    img: "src/assets/Himanshi.jpg",
   }
 ];
 
