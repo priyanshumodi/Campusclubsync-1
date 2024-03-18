@@ -5,48 +5,48 @@ import Img3 from "../../assets/women/women3.jpg";
 import Img4 from "../../assets/women/women4.jpg";
 import { FaStar } from "react-icons/fa6";
 
-const ProductsData = [
-  {
-    id: 1,
-    img: Img1,
-    title: "Women Ethnic",
-    rating: 5.0,
-    color: "white",
-    aosDelay: "0",
-  },
-  {
-    id: 2,
-    img: Img2,
-    title: "Women western",
-    rating: 4.5,
-    color: "Red",
-    aosDelay: "200",
-  },
-  {
-    id: 3,
-    img: Img3,
-    title: "Goggles",
-    rating: 4.7,
-    color: "brown",
-    aosDelay: "400",
-  },
-  {
-    id: 4,
-    img: Img4,
-    title: "Printed T-Shirt",
-    rating: 4.4,
-    color: "Yellow",
-    aosDelay: "600",
-  },
-  {
-    id: 5,
-    img: Img2,
-    title: "Fashin T-Shirt",
-    rating: 4.5,
-    color: "Pink",
-    aosDelay: "800",
-  },
-];
+// const ProductsData = [
+//   {
+//     id: 1,
+//     img: Img1,
+//     title: "Women Ethnic",
+//     rating: 5.0,
+//     color: "white",
+//     aosDelay: "0",
+//   },
+//   {
+//     id: 2,
+//     img: Img2,
+//     title: "Women western",
+//     rating: 4.5,
+//     color: "Red",
+//     aosDelay: "200",
+//   },
+//   {
+//     id: 3,
+//     img: Img3,
+//     title: "Goggles",
+//     rating: 4.7,
+//     color: "brown",
+//     aosDelay: "400",
+//   },
+//   {
+//     id: 4,
+//     img: Img4,
+//     title: "Printed T-Shirt",
+//     rating: 4.4,
+//     color: "Yellow",
+//     aosDelay: "600",
+//   },
+//   {
+//     id: 5,
+//     img: Img2,
+//     title: "Fashin T-Shirt",
+//     rating: 4.5,
+//     color: "Pink",
+//     aosDelay: "800",
+//   },
+// ];
 
 const Products = () => {
   return (
@@ -72,21 +72,21 @@ const Products = () => {
             {ProductsData.map((data) => (
               <div
                 data-aos="fade-up"
-                data-aos-delay={data.aosDelay}
-                key={data.id}
+                data-aos-delay="{data.aosDelay}"
+                key="{data.id}"
                 className="space-y-3"
               >
                 <img
-                  src={data.img}
+                  src="https://blog.spjain.org/wp-content/muploads/2011/06/Music-club-1024x682.jpeg"
                   alt=""
                   className="h-[220px] w-[150px] object-cover rounded-md"
                 />
                 <div>
-                  <h3 className="font-semibold">{data.title}</h3>
-                  <p className="text-sm text-gray-600">{data.color}</p>
+                  <h3 className="font-semibold">{"data.title"}</h3>
+                  <p className="text-sm text-gray-600">{"data.color"}</p>
                   <div className="flex items-center gap-1">
                     <FaStar className="text-yellow-400" />
-                    <span>{data.rating}</span>
+                    <span>{"data.rating"}</span>
                   </div>
                 </div>
               </div>
